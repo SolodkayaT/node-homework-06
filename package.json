@@ -16,5 +16,27 @@
   "bugs": {
     "url": "https://github.com/SolodkayaT/node-homework-06/issues"
   },
-  "homepage": "https://github.com/SolodkayaT/node-homework-06#readme"
+  "homepage": "https://github.com/SolodkayaT/node-homework-06#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "image-downloader": "^4.0.1",
+    "imagemin": "^7.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.15",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "random-avatar": "^1.0.1",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
